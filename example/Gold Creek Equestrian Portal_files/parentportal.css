@@ -1,0 +1,260 @@
+h1.green_bar_top, #enrollments_table th, .enrollments_table th, .left_container_color, .rules_cont_block > h2,
+#students_table th, #make_a_payment_charges thead tr, .pagination,  .memberlogin_container h3,
+.find_header ,div.availability, .progress-bar, .ui-widget-header, #login-alert, table.financial-details thead th {
+	background-color: #355749;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, input.green_border {
+	border-color: #355749 ;
+}
+
+.ui-state-error {
+    border: 1px solid #cd0a0a; !important;
+}
+
+.pagination>li>a, .pagination>li>a:hover { color: #355749 }
+.pagination>.active>a, .pagination>.active>a:hover, .pagination>.active>a:focus {background-color: #355749; border-color: #355749; }
+
+
+.btn-unavailable, .btn-unavailable:hover, .btn-unavailable:focus { background-color: #355749; opacity: 0.3;}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus { background-color: #355749; border-color: #355749; box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.65); opacity: .65; }
+
+.create_box { clear: both; }
+
+
+#location-list h1, .create_box h2, .header h1 span, .header p a, td.class_name, .choose_student_box h2, .choose_student_box h3, .rules_container h1, .memberlogin_container span.forgot a,
+div.unpaid_charges_row.active, div.class_openings, div.party-station h3, #party-steps li.active p, #step-selections a, .remove-icon:hover,
+.party-package h3, #personal-info, #personal-info a.forgot, #party-confirmation h3, #party-addons h2, .party-addon h3, .party-confirmation h3, div.days b, a.details-link,
+.section-makeups h1, .section-makeups h2, .app-wrap h3, .footer-app-wrap h3 {
+	color: #355749;
+}
+
+@media all and (max-width: 480px) {
+    div.availability {
+        color: #355749;
+    }
+}
+
+.details-link:after { border-left-color: #355749; }
+
+div.class_action a, div.locations li a { background: #355749; color: #fff; border: 1px solid #355749; }
+div.class_action a.actionless { cursor: default; background: #D3D3D3; border: 1px solid #D3D3D3; }
+div.class_action a:hover, div.locations li a:hover { opacity: 0.65;  }
+div.class_action a.actionless:hover { opacity: 1;  }
+div.locations li.unavailable a { opacity: .4; cursor: not-allowed; }
+
+
+.pagination ul li a { opacity: 0.6; }
+.pagination ul li.active a { opacity: 1; }
+
+#menu > li { border-top: 1px solid rgba(255, 255, 255, 0.3); }
+#menu > li:last-child { border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.btn-primary { border-color: #355749; background-color: #355749; }
+
+/*-----------------------------------------------------Cart-----------------------------------------------------------*/
+#cart-contents { border-bottom: 5px solid #355749;}
+
+
+table.student-enrollment {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0 4px;
+}
+
+table.student-enrollment td {width:70%;}
+
+table.student-enrollment th{
+	color: #355749;
+	text-align: left;
+	padding: 12px 0;
+	font: normal 15px/15px Arial, Helvetica, sans-serif;
+}
+
+table.student-enrollment td {
+	color: #555;
+	background: #f1f1f1;
+	padding: 5px;
+	font: normal 12px/12px Arial, Helvetica, sans-serif;
+}
+
+
+table.student-enrollment td.text-right {text-align: right;}
+table.student-enrollment td.text-center {text-align: center;}
+
+
+.remove-btn {
+	color: #355749;
+	background-color: #ddd;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 2px 6px;
+}
+
+.checkout-btn {
+	 display: block;
+	margin: 20px 28px; padding: 6px;
+	color: #333;
+	background-color: #ddd;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.pull-right { float: right; }
+.pull-left { float: left; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+
+.cf:before, .cf:after {
+	content: " ";
+	display: table;
+}
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+.button-primary, a.button-primary, button.btn-primary, input.btn-primary, a.btn-primary, .btn-primary { background-color: #355749; color: #fff;}
+
+/*----------------------------------------Checkout Confirmation-------------------------------------------------------*/
+.checkout-stage { margin: 10px 10px 30px 10px; font: normal 12px Arial, Helvetica, sans-serif; color: #585858;}
+.checkout-stage h1 {
+text-transform: uppercase;
+color: #000;
+font: bold 22px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+letter-spacing: .03em;
+border-bottom: 1px solid #cacaca;
+padding: 10px 0;
+}
+#enrollments h1 {text-align:left;}
+.checkout-stage .summary { text-align: left; border-bottom: 2px dotted #cacaca; margin: 0; padding: 0 0 20px 0;}
+.checkout-stage .summary b { font-weight: bold; font-style: normal; }
+.checkout-stage .summary div {margin: 5px 0; }
+.checkout-stage .enrollment {}
+.checkout-stage .discounts {}
+.checkout-stage .summary .title { color: #355749; font-size: 20px; font-weight: bold; width: 475px; max-width: 100%; }
+.checkout-stage .summary .price {float:right; color: #444; font-size: 17px; font-weight: bold; clear:none; margin-top: -12px; }
+.checkout-stage .summary .price .Price { padding-top: 0px; padding-right: 15px; top: 0; right: 0; margin: 0; text-align: left; color: #444; font-size: 17px; font-weight: bold; }
+.checkout-stage .summary .price .PriceText { padding-top: 0px; padding-right: 115px; top: 0; right: 0; margin: 0; text-align: center; color: #444; font-size: 17px; font-weight: bold; }
+
+.checkout-stage .summary .price .discountPrice {float:right; padding-top: 10px; padding-right: 15px;  margin: 0; text-align: left; color: #444; font-size: 17px; font-weight: bold; }
+.checkout-stage .summary .price .discountText {float:left;  padding-top: 10px; padding-right: 25px;  margin: 0; text-align: left; color: #444; font-size: 17px; font-weight: bold; }
+.checkout-stage .summary .price .totalWDiscount { padding-top: 20px; top: 0; right: 0; margin: 0; text-align: left; color: #444; font-size: 17px; font-weight: bold; }
+.checkout-stage .summary .price .remove {padding-top: 15px; padding-right: 15px; top: 0; right: 0; margin: 0; text-align: left; color: #444; font-size: 17px; font-weight: bold; clear:none; text-align: right; }
+.checkout-stage .summary .price .pricingTable td.price {text-align:left; padding-top: 0px; padding-right: 15px; top: 0; right: 0; margin: 0; color: #444; font-size: 17px; font-weight: bold;}
+.checkout-stage .summary .price .pricingTable td.text {vertical-align: top; text-align:right; padding-top: 0px; padding-right: 15px; top: 0; right: 0; margin: 0; color: #444; font-size: 17px; font-weight: bold;}
+
+.checkout-stage .summary .price a { display: block; font: italic 16px TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; text-decoration: none; color: #900;}
+
+.pricingTable .price { margin-top: 0; }
+
+.checkout-stage .summary .dates { font-size: 12px; color: grey;}
+.checkout-stage .summary .promo-codes { font-size: 12px; font-style: italic;}
+.checkout-stage .summary .schedule { font-size: 16px; font-weight: bold; color: #444; margin: 15px 0;}
+.checkout-stage .summary .schedule span { font-size: 13px; text-transform: uppercase; }
+.checkout-stage .summary .schedule span.divider { font-size: 18px; color: #cacaca; margin: 0 2px; }
+.checkout-stage .summary .session { padding-left: 12px; border-left: 2px solid #cacaca; margin-bottom: 15px; font-size: 14px; font-weight:bold; font-style: italic; color: #900; }
+.checkout-stage .complete .session { font-size: 12px; font-style: normal; font-weight: normal; color: #959595; margin: 5px 0; padding: 0; border: none; }
+.checkout-stage .complete .schedule { font-size: 12px; margin: 0; }
+.checkout-stage .complete .schedule span.divider { font-size: 11px; color: #cacaca; margin: 0 2px; }
+
+.checkout-stage .summary .session-dates {color: #585858; font-weight: normal; font-size: 12px;}
+.checkout-stage .summary .notes {}
+table.checkout-totals {
+text-align: left;
+color: #000;
+width: 100%;
+border-collapse: separate;
+border-spacing: 0 4px;
+margin-bottom: 35px;
+}
+
+table.checkout-totals td { padding: 10px 15px; font-size: 16px; font-weight: bold; }
+table.checkout-totals tr.subtotal td {  background: #cacaca; }
+table.checkout-totals tr.total td {  background: #000; color: #fff; }
+table.checkout-totals td.right {text-align: right;}
+table.checkout-totals td:first-child {border-top-left-radius: 5px; border-bottom-left-radius: 5px}
+table.checkout-totals td:last-child {border-top-right-radius: 5px; border-bottom-right-radius: 5px}
+
+table.payment-details{ width: 100%; text-align: left; color: #000; border-collapse: collapse; border: 1px solid #bcbcbc;}
+table.payment-details thead th { background: #c1c1c1; padding: 8px; }
+table.payment-details tbody td { background: #f0f0f0; padding: 8px 8px 8px 50px; white-space: nowrap; }
+table.payment-details tbody tr:last-child td {font-weight: bold; }
+table.payment-details tbody td:last-child {width: 99%;}
+table.payment-details tbody td:first-child { font-weight: bold; padding: 8px; }
+
+#checkout-complete.checkout-stage h1 { text-transform: none; color: #355749;}
+
+/*-----------------------------------------------------Skills-----------------------------------------------------------*/
+.section-skills h1 {
+	color: #355749;
+}
+
+.section-skills .breadcrumb a,
+.section-skills .breadcrumb a:hover,
+.section-skills .breadcrumb a:focus {
+	color: #355749;
+}
+
+.list-wrap-evaluations .actions .btn {
+	color: #fff;
+	background: #355749;
+	border-color: #355749;
+}
+
+.list-wrap-evaluations .actions .btn:focus,
+.list-wrap-evaluations .actions .btn:hover {
+	color: #fff;
+	background: #355749;
+	border-color: #355749;
+	opacity: .65;
+}
+
+.list-wrap-evaluations .avatar .img-wrap {
+	background: #355749;
+	border-color: #355749;
+}
+
+.table-evaluations td.visible-xs-block .btn,
+.table-evaluations td.visible-sm-block .btn {
+	color: #fff;
+	background: #355749;
+	border-color: #355749;
+}
+
+.table-evaluations td.visible-xs-block .btn:focus,
+.table-evaluations td.visible-sm-block .btn:focus,
+.table-evaluations td.visible-xs-block .btn:hover,
+.table-evaluations td.visible-sm-block .btn:hover {
+	color: #fff;
+	background: #355749;
+	border-color: #355749;
+	opacity: .65;
+}
+
+.custom-message-for-cart { color: red; font-size: 12px; font-weight: normal; }
+
+/*-----------------------------------------------------Passes-----------------------------------------------------------*/
+ul.passes-wrap li span.icon-passes.filled:before {
+color: #355749;
+}
+
+ul.passes-wrap li button.btn {
+color: #fff;
+background: #355749;
+border-color: #355749;
+}
+
+ul.passes-wrap li button.btn:focus,
+ul.passes-wrap li button.btn:hover {
+color: #fff;
+background: #355749;
+border-color: #355749;
+opacity: .65;
+}

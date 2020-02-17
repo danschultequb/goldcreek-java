@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html style="overflow: scroll;" lang="en-us"><head><style type="text/css">.uib-time input{width:50px;}</style><style type="text/css">[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none' ;
+
+    font-src 'self' data:
+                    https://fonts.googleapis.com
+                    https://fonts.gstatic.com
+                    https://maxcdn.bootstrapcdn.com
+                    ;
+
+    img-src * data: blob: 'unsafe-inline'
+                    ;
+
+    style-src 'self' 'unsafe-inline'
+                    https://fonts.googleapis.com
+                    https://cdn.iclasspro.com
+                    https://maxcdn.bootstrapcdn.com
+                    ;
+
+    script-src  'self' 'unsafe-inline' 'unsafe-eval'
+                    https://www.gstatic.com
+                    https://cdn.iclasspro.com
+                    https://code.jquery.com
+                    https://ajax.googleapis.com
+                    https://maxcdn.bootstrapcdn.com
+                    http://browser-update.org
+                    https://www.google.com
+                    https://www.googletagmanager.com
+                    https://www.google-analytics.com
+                    ;
+
+    child-src 'self'
+                https://www.google.com
+                https://player.vimeo.com
+                https://www.youtube.com
+                https://securepay.unifiedbusiness.com                ;
+
+    manifest-src 'self'
+                ;
+
+    connect-src 'self'
+                 https://sentry.io
+                 ;
+    object-src 'none' ;">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Expires" content="0">
+        <title>Gold Creek Equestrian Portal</title>
+    <!-- base href="https://app.iclasspro.com/parentportal/" -->
+
+    <style type="text/css">
+        @media print {
+            #left_container {
+                display: none;
+            }
+
+            #right_container, .rules_container, .rules_cont_block {
+                width: 100% !important;
+            }
+
+            .table-stacked-xs-only, .table.table-stacked-xs-only td {
+                padding-left: 0px !important;
+                width: 100% !important;
+            }
+
+            .rules_cont_block p {
+                width: auto !important;
+            }
+
+            .rules_cont_block h2 {
+                width: auto !important;
+                margin: 0px;
+                margin-bottom: 10px;
+            }
+
+            .table.table-stacked-xs-only tr {
+                border-bottom: 0px !important;
+            }
+
+            .print-only {
+                display: block !important;
+            }
+
+            .hide-for-print {
+                display: none !important;
+            }
+        }
+
+        @media screen {
+            .print-only {
+                display: none !important;
+            }
+        }
+    </style>
+    
+    <script>
+        var $buoop = {vs:{i:8,f:-8,o:-8,s:8,c:-8},insecure:true,reminder:0,mobile:false,noclose:true,api:2020.02};
+        function $buo_f(){
+            var e = document.createElement("script");
+            e.src = "//browser-update.org/update.min.js";
+            document.body.appendChild(e);
+        };
+        try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+        catch(e){window.attachEvent("onload", $buo_f)}
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="../../../content/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="Gold%20Creek%20Equestrian%20Portal_files/parent-portal.css">
+
+            <link rel="stylesheet" type="text/css" href="Gold%20Creek%20Equestrian%20Portal_files/css.css">
+    
+    <!-- Scripts -->
+            <script crossorigin="anonymous" src="Gold%20Creek%20Equestrian%20Portal_files/jquery.js"></script>
+        <script> window.jQuery || document.write('<script src="/libs/jquery/jquery-3.4.1.js"><\/script>') </script>
+
+        <script crossorigin="anonymous" src="Gold%20Creek%20Equestrian%20Portal_files/jquery-ui.js"></script>
+        <script> window.jQuery.ui || document.write('<script src="content/js/jquery-ui-1.12.1.min.js"><\/script>') </script>
+        <script src="Gold%20Creek%20Equestrian%20Portal_files/parent-portal-vendor.js"></script>
+    <script src="Gold%20Creek%20Equestrian%20Portal_files/ng-vendor.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="Gold%20Creek%20Equestrian%20Portal_files/parentportal.css">
+
+    <script type="text/javascript">
+        window.APPBaseURI = "\/parentportal\/goldcreek\/";
+        window.icp_dateformat = "mm\/dd\/yy";
+    </script>
+
+    <script src="Gold%20Creek%20Equestrian%20Portal_files/parent-portal.js"></script>
+
+    <script src="Gold%20Creek%20Equestrian%20Portal_files/bundle.js"></script>
+
+    <!-- Declare JavaScript Variables -->
+    <script type="text/javascript">
+        var ICP_UID = "";
+        var ICP_ACCTNAME = "goldcreek";
+        var ICP_ACCT_ID = "36600";
+        var ICP_FAMILY_UID = "";
+        var ICP_FAMILY_NAME = "";
+        var ICP_LOGIN_NAME = "";
+        var ICP_BASE_URL = "/parentportal/goldcreek";
+        var ICP_COLOR_THEME = "#355749";
+        var ICP_SHOW_STUDENT_IMAGES = false;
+        var ICP_SHOW_ONLY_EVALUATED_SKILLS = false;
+        
+var ICP_DATE_FORMAT='m/d/Y';
+var ICP_ANGULAR_DATE_FORMAT='MM/dd/yyyy';
+var ICP_MOMENT_DATE_FORMAT='MM/DD/YYYY';
+var ICP_ANGULAR_LONG_DATE_FORMAT='EEEE, MMMM d, yyyy';
+var ICP_DATEPICKER_DATE_FORMAT='m/dd/yy';    </script>
+    <script src="Gold%20Creek%20Equestrian%20Portal_files/parent-portal-app-scripts.js"></script>
+
+    
+    <script type="text/javascript">
+        Sentry.setUser({
+            account: 'goldcreek',
+            timezone: 'America/Los_Angeles',
+            login_email: ''
+        });
+
+        Sentry.setTags({
+            environment: 'production',
+            account: 'goldcreek',
+            app: 'parentportal',
+                    });
+
+        Sentry.configureScope(function (scope) {
+            scope.addEventProcessor(function (event) {
+                return new Promise(function(resolve) {
+                    event.release = unknown;
+                    return resolve(event);
+                });
+            });
+        });
+    </script>
+
+        
+</head>
+
+<body ng-app="parent-portal" class="ng-scope">
+<div id="wrapper">
+    <img src="Gold%20Creek%20Equestrian%20Portal_files/ICP_Wave1.png" alt="" style="background-color:#355749;" width="920">
+    <div class="header cf">
+    <div id="location-info">
+                <h1>Welcome to <span>Gold Creek Equestrian</span></h1>
+        <p>16528 148th Ave NE / Woodinville, WA 98072 / 425-806-4653</p>
+    </div>
+    <div class="location-select">
+            </div>
+    <div id="login-info" class="cf">
+                    <p><a href="https://app.iclasspro.com/parentportal/goldcreek/login">Login</a> | <a href="https://app.iclasspro.com/parentportal/goldcreek/createAccount">Create an Account</a></p>
+            </div>
+</div>
+
+        <div id="angular-area">
+        <script>
+            
+            (function () {
+                'use strict';
+
+                angular
+                    .module('parent-portal')
+                    .constant('appConfig', {
+                        siteUrl: 'https://app.iclasspro.com/parentportal',
+                        apiUrl: 'https://app.iclasspro.com/api/v1/',
+                        cdnDomain: ''
+                    });
+
+            })();
+        </script>
+    </div>
+    
+    
+    
+    <div id="left_container">
+                <div class="left_container_color roundedlft">
+            <ul id="menu" class="menu-collapsed desktop">
+            <li class="login">
+            <a href="https://app.iclasspro.com/parentportal/goldcreek/">Login/Enroll</a>
+        </li>
+                        <li class="classes">
+            <a href="https://app.iclasspro.com/parentportal/goldcreek/classes">Classes</a>
+        </li>
+
+                
+
+    
+                        <li class="camps">
+                        <a href="https://app.iclasspro.com/parentportal/goldcreek/camps?camptype=1">
+                            Private Lessons                        </a>
+                    </li>
+                                    <li class="camps">
+                        <a href="https://app.iclasspro.com/parentportal/goldcreek/camps?camptype=6">
+                            Semi Private Lesson                        </a>
+                    </li>
+                
+    </ul>
+        </div>
+                </div>
+
+    <div id="right_container">
+        <div id="right_content" class="cf">
+            <div class="right_container_roundedtop" style="margin-bottom: 10px;">
+    <div class="find_header">
+        <form action="" method="GET" class="ng-pristine ng-valid">
+            <table>
+                <caption> Filters:</caption>
+                <tbody><tr>
+                    <th>Search</th>
+                    <th>Month</th>
+                    <th>Sort By</th>
+                </tr>
+                <tr>
+                    <td>
+
+                        <input type="text" name="search" class="form-control">
+                    </td>
+                    <td>
+                        <select name="month" class="form-control">
+<option value="" selected="selected">-----</option>
+<option value="1580584114">February, 2020</option>
+<option value="1583089714">March, 2020</option>
+<option value="1585764514">April, 2020</option>
+<option value="1588356514">May, 2020</option>
+<option value="1591034914">June, 2020</option>
+<option value="1593626914">July, 2020</option>
+<option value="1596305314">August, 2020</option>
+<option value="1598983714">September, 2020</option>
+<option value="1601575714">October, 2020</option>
+<option value="1604257714">November, 2020</option>
+<option value="1606849714">December, 2020</option>
+<option value="1609528114">January, 2021</option>
+</select>                    </td>
+                    <td>
+                                                <select name="sort" class="form-control">
+<option value="name">By Name</option>
+<option value="time" selected="selected">By Date/Time</option>
+</select>                    </td>
+                </tr>
+                <tr>
+                    <th>Program</th>
+                    <th>Age</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="program" class="form-control">
+<option value="">-----</option>
+<option value="17" selected="selected">Lessons</option>
+</select>                    </td>
+                    <td>
+                        <select name="age" class="form-control">
+<option value="">-----</option>
+<option value="0">0 years</option>
+<option value="1">1 years</option>
+<option value="2">2 years</option>
+<option value="3">3 years</option>
+<option value="4">4 years</option>
+<option value="5">5 years</option>
+<option value="6">6 years</option>
+<option value="7">7 years</option>
+<option value="8">8 years</option>
+<option value="9">9 years</option>
+<option value="10">10 years</option>
+<option value="11">11 years</option>
+<option value="12">12 years</option>
+<option value="13">13 years</option>
+<option value="14">14 years</option>
+<option value="15">15 years</option>
+<option value="16">16 years</option>
+<option value="17">17 years</option>
+<option value="18">18 years</option>
+<option value="19">19 years</option>
+<option value="20">20 years</option>
+<option value="21" selected="selected">21+ years</option>
+</select>                    </td>
+                    <td>
+                        <input type="submit" name="filters" value="Submit" class="btn">
+                    </td>
+                </tr>
+
+            </tbody></table>
+        </form>
+    </div>
+</div>
+
+
+    <div class="paginator">
+        <ul class="pagination">
+            <li class="first"><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=1">&lt;&lt;</a></li>
+            
+                                        <li class="active"><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=1">1</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=2">2</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=3">3</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=4">4</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=5">5</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=6">6</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=7">7</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=8">8</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=9">9</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=10">10</a></li>
+            
+                            <li class="last"><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=2">&gt;</a></li>
+                        <li class="last"><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=10">&gt;&gt;</a></li>
+        </ul>
+    </div>
+                            <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">FULL</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Christy; Saturday @ 9:00am                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Saturday</td>
+                                <td>9:00am</td>
+                                <td>10:00am</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/9" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/9" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camps#">Login</a>
+                                </div>
+        </div>
+                                    <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">OPEN</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Bryan; Tuesday @ 10:00am                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Tuesday</td>
+                                <td>10:00am</td>
+                                <td>11:00am</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/17" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/17" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camp/enroll/17">Login</a>
+                                </div>
+        </div>
+                                    <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">OPEN</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Bryan; Saturday @ 10:00am                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Saturday</td>
+                                <td>10:00am</td>
+                                <td>11:00am</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/23" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/23" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camp/enroll/23">Login</a>
+                                </div>
+        </div>
+                                    <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">OPEN</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Bryan; Sunday @ 10:00am                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Sunday</td>
+                                <td>10:00am</td>
+                                <td>11:00am</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/29" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/29" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camp/enroll/29">Login</a>
+                                </div>
+        </div>
+                                    <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">OPEN</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Christy; Saturday @ 10:00am                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Saturday</td>
+                                <td>10:00am</td>
+                                <td>11:00am</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/42" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/42" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camp/enroll/42">Login</a>
+                                </div>
+        </div>
+                                    <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">OPEN</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Bryan; Monday @ 10:00am                         </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Monday</td>
+                                <td>10:00am</td>
+                                <td>11:00am</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/210" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/210" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camp/enroll/210">Login</a>
+                                </div>
+        </div>
+                                    <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">OPEN</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Christy; Saturday @ 11:00am                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Saturday</td>
+                                <td>11:00am</td>
+                                <td>12:00pm</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/10" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/10" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camp/enroll/10">Login</a>
+                                </div>
+        </div>
+                                    <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">OPEN</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Bryan; Monday @ 11:00am                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Monday</td>
+                                <td>11:00am</td>
+                                <td>12:00pm</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/12" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/12" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camp/enroll/12">Login</a>
+                                </div>
+        </div>
+                                    <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">OPEN</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Bryan; Tuesday @ 11:00am                         </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Tuesday</td>
+                                <td>11:00am</td>
+                                <td>12:00pm</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/18" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/18" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camp/enroll/18">Login</a>
+                                </div>
+        </div>
+                                    <div class="listing_container cf class">
+
+                    <div class="class_openings">
+                <div class="status">Openings</div>
+                <div class="availability">OPEN</div>
+            </div>
+            <div class="class_details">
+                <table class="class_schedule">
+                    <thead>
+                    <tr>
+                        <td colspan="3" class="class_name">
+                            Bryan; Saturday @ 11:00am                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            Private Lesson Dates: 01/08/2018                            - 12/31/2020                        </th>
+                    </tr>
+                    <tr>
+                                                    <th>Days</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                                            </tr>
+                    </thead>
+                    <tbody>
+                                                <tr>
+                                <td>Saturday</td>
+                                <td>11:00am</td>
+                                <td>12:00pm</td>
+                            </tr>
+                                                                </tbody>
+                    <tfoot>
+                    <tr>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/details/24" class="details-link">More Details</a></td>
+                        <td><a href="https://app.iclasspro.com/parentportal/goldcreek/camps/schedule/24" class="details-link">Full Schedule</a></td>
+                        <td></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="class_action">
+                                                            <a class="btn btn-primary" href="https://app.iclasspro.com/parentportal/goldcreek/login?refUrl=camp/enroll/24">Login</a>
+                                </div>
+        </div>
+            
+    <div class="paginator">
+        <ul class="pagination">
+            <li class="first"><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=1">&lt;&lt;</a></li>
+            
+                                        <li class="active"><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=1">1</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=2">2</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=3">3</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=4">4</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=5">5</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=6">6</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=7">7</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=8">8</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=9">9</a></li>
+                            <li><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=10">10</a></li>
+            
+                            <li class="last"><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=2">&gt;</a></li>
+                        <li class="last"><a href="https://app.iclasspro.com/parentportal/goldcreek/camps?search=&amp;month=1577911170&amp;sort=time&amp;program=17&amp;age=21&amp;filters=Submit&amp;page=10">&gt;&gt;</a></li>
+        </ul>
+    </div>
+        </div>
+        <footer class="cf">
+                    <ul>
+                <li><a href="https://www.iclasspro.com/notice/privacy-policy" target="_blank">Privacy Policy</a></li>
+                <li><a href="https://www.iclasspro.com/notice/terms-of-use" target="_blank">Terms of Use</a></li>
+                <li>
+                    <a class="poweredby" href="http://www.iclasspro.com/?utm_source=parentportal" data-toggle="modal" data-target="#confirm-delete" onclick="return confirm('This link will direct you away from the Parent Portal. Press [Cancel] to remain here or [OK] to leave the Parent Portal and learn more about iClassPro Class Management Software.');" target="_blank">
+                        <span>Powered by iClassPro</span>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var menu = $('ul#menu');
+        var activeItem = menu.find('> .active');
+        var itemIndex = activeItem.index();
+        var menuBtn = $('<span></span>');
+        var width = 0;
+        var scrollWidth = 0;
+
+        // Calculates width of scrollbar to correct discrepancy between media query and window.width() when using width as breakpoint.
+        function scrollBarWidth() {
+            $("html").css("overflow", 'hidden');
+            width = $("html").width();
+            $("html").css("overflow", 'scroll');
+            width -= $("html").width();
+            scrollWidth = width;
+        }
+
+        // Grabs active menu item and moves it to the top of the menu on mobile devices. Moves it back to it's original position on desktop view.
+        function resizePortal() {
+            if ((!$(menu).hasClass('mobile')) && ($(window).width() + scrollWidth <= 768)) {
+                $(menu).addClass('mobile').removeClass('desktop');
+                $(menu).prepend(activeItem);
+            }
+            else if ((!$(menu).hasClass('desktop')) && ($(window).width() + scrollWidth > 768)) {
+                $(menu).addClass('desktop').removeClass('mobile');
+                menu.find('> li:eq(' + (itemIndex) + ')').after(activeItem);
+            }
+        }
+
+        $(menuBtn).on('click', function(){
+            $(menu).toggleClass( 'menu-collapsed');
+        });
+
+        // Add expand button to menu
+        $(activeItem).append(menuBtn);
+
+        scrollBarWidth();
+        resizePortal();
+
+        $(window).on('resize', function() {
+            resizePortal();
+        });
+    })
+</script>
+
+
+<script src="Gold%20Creek%20Equestrian%20Portal_files/update.js"></script></body></html>
